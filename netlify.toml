@@ -3,6 +3,12 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/apply"
+  to = "https://d2g-sunset-mkt-application.netlify.app/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
